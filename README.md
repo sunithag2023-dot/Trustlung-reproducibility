@@ -18,7 +18,6 @@ assert n_npz >= 51, "expected 51 finished runs - check that the right output is 
 # =============================================================================
 # CELL 1 — SETUP: data, class-stratified source-group split, all models, training
 # ONE pipeline for every experiment: same seeds, same split, same recipe.
-# Answers: R1#1, R1#2, R1#6, R1#8
 # =============================================================================
 import os, glob, json, random, hashlib, math, time, numpy as np, pandas as pd, torch
 import torch.nn as nn, torch.nn.functional as F
